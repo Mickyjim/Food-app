@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDCE2B2A285546540026929A /* TabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCE2B29285546540026929A /* TabButton.swift */; };
+		EDCE2B2D28567FC10026929A /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = EDCE2B2C28567FC10026929A /* Alamofire */; };
+		EDCE2B2F2856A33E0026929A /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCE2B2E2856A33E0026929A /* CartView.swift */; };
+		EDCE2B3A28573BD90026929A /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = EDCE2B3928573BD90026929A /* SDWebImageSwiftUI */; };
+		EDCE2B41285783580026929A /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = EDCE2B40285783580026929A /* SwiftyJSON */; };
+		EDCE2B49285784A80026929A /* DataType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCE2B48285784A80026929A /* DataType.swift */; };
+		EDCE2B4D28592A770026929A /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCE2B4C28592A770026929A /* Observer.swift */; };
+		EDDB5252285135150000D2BE /* Food_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDB5251285135150000D2BE /* Food_AppApp.swift */; };
+		EDDB5254285135150000D2BE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDB5253285135150000D2BE /* ContentView.swift */; };
+		EDDB5256285135180000D2BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDDB5255285135180000D2BE /* Assets.xcassets */; };
+		EDDB5259285135190000D2BE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDDB5258285135190000D2BE /* Preview Assets.xcassets */; };
+		EDDB5262285137E60000D2BE /* FeaturedItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDB5261285137E60000D2BE /* FeaturedItemView.swift */; };
+		EDDB52642851404D0000D2BE /* footerImage.json in Resources */ = {isa = PBXBuildFile; fileRef = EDDB52632851404D0000D2BE /* footerImage.json */; };
+		EDDB5268285143C00000D2BE /* FooterImagesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDB5267285143C00000D2BE /* FooterImagesModel.swift */; };
+		EDDB526D285144ED0000D2BE /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDB526C285144ED0000D2BE /* Constant.swift */; };
+		EDDB52702851459E0000D2BE /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDB526F2851459E0000D2BE /* CodableBundleExtension.swift */; };
+		EDDB5272285145C10000D2BE /* FeaturedTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDB5271285145C10000D2BE /* FeaturedTabView.swift */; };
+		EDDB527828514C300000D2BE /* OptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDB527728514C300000D2BE /* OptionsView.swift */; };
+		EDDB527B285290470000D2BE /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = EDDB527A285290470000D2BE /* SDWebImage */; };
+		EDDB527F28532F2A0000D2BE /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDB527E28532F2A0000D2BE /* HomeView.swift */; };
+		EDDB52812853479C0000D2BE /* MenuDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDB52802853479C0000D2BE /* MenuDisplay.swift */; };
+		EDDB528328534BF40000D2BE /* FoodItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDB528228534BF40000D2BE /* FoodItem.swift */; };
+		EDDB5285285544080000D2BE /* OptionsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDB5284285544070000D2BE /* OptionsModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EDCE2B29285546540026929A /* TabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButton.swift; sourceTree = "<group>"; };
+		EDCE2B2E2856A33E0026929A /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		EDCE2B48285784A80026929A /* DataType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataType.swift; sourceTree = "<group>"; };
+		EDCE2B4C28592A770026929A /* Observer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observer.swift; sourceTree = "<group>"; };
+		EDDB524E285135150000D2BE /* Food-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Food-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDDB5251285135150000D2BE /* Food_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food_AppApp.swift; sourceTree = "<group>"; };
+		EDDB5253285135150000D2BE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EDDB5255285135180000D2BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDDB5258285135190000D2BE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EDDB5261285137E60000D2BE /* FeaturedItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedItemView.swift; sourceTree = "<group>"; };
+		EDDB52632851404D0000D2BE /* footerImage.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = footerImage.json; sourceTree = "<group>"; };
+		EDDB5267285143C00000D2BE /* FooterImagesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterImagesModel.swift; sourceTree = "<group>"; };
+		EDDB526C285144ED0000D2BE /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		EDDB526F2851459E0000D2BE /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
+		EDDB5271285145C10000D2BE /* FeaturedTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedTabView.swift; sourceTree = "<group>"; };
+		EDDB527728514C300000D2BE /* OptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsView.swift; sourceTree = "<group>"; };
+		EDDB527E28532F2A0000D2BE /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		EDDB52802853479C0000D2BE /* MenuDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuDisplay.swift; sourceTree = "<group>"; };
+		EDDB528228534BF40000D2BE /* FoodItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodItem.swift; sourceTree = "<group>"; };
+		EDDB5284285544070000D2BE /* OptionsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDDB524B285135150000D2BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDCE2B3A28573BD90026929A /* SDWebImageSwiftUI in Frameworks */,
+				EDDB527B285290470000D2BE /* SDWebImage in Frameworks */,
+				EDCE2B41285783580026929A /* SwiftyJSON in Frameworks */,
+				EDCE2B2D28567FC10026929A /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDCE2B28285546340026929A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EDDB526B285144D40000D2BE /* Home */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EDCE2B3528572D100026929A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EDCE2B4C28592A770026929A /* Observer.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EDDB5245285135150000D2BE = {
+			isa = PBXGroup;
+			children = (
+				EDDB5250285135150000D2BE /* Food-App */,
+				EDDB524F285135150000D2BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDDB524F285135150000D2BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDDB524E285135150000D2BE /* Food-App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDDB5250285135150000D2BE /* Food-App */ = {
+			isa = PBXGroup;
+			children = (
+				EDDB5251285135150000D2BE /* Food_AppApp.swift */,
+				EDDB5253285135150000D2BE /* ContentView.swift */,
+				EDDB526A285144C10000D2BE /* Model */,
+				EDCE2B3528572D100026929A /* ViewModel */,
+				EDCE2B28285546340026929A /* View */,
+				EDDB526E285145880000D2BE /* Utility */,
+				EDDB5269285144B60000D2BE /* Data */,
+				EDDB5255285135180000D2BE /* Assets.xcassets */,
+				EDDB5257285135190000D2BE /* Preview Content */,
+			);
+			path = "Food-App";
+			sourceTree = "<group>";
+		};
+		EDDB5257285135190000D2BE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EDDB5258285135190000D2BE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EDDB5269285144B60000D2BE /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				EDDB52632851404D0000D2BE /* footerImage.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		EDDB526A285144C10000D2BE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EDDB5267285143C00000D2BE /* FooterImagesModel.swift */,
+				EDDB5284285544070000D2BE /* OptionsModel.swift */,
+				EDCE2B48285784A80026929A /* DataType.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EDDB526B285144D40000D2BE /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				EDDB527E28532F2A0000D2BE /* HomeView.swift */,
+				EDDB5261285137E60000D2BE /* FeaturedItemView.swift */,
+				EDDB5271285145C10000D2BE /* FeaturedTabView.swift */,
+				EDDB527728514C300000D2BE /* OptionsView.swift */,
+				EDDB52802853479C0000D2BE /* MenuDisplay.swift */,
+				EDDB528228534BF40000D2BE /* FoodItem.swift */,
+				EDCE2B29285546540026929A /* TabButton.swift */,
+				EDCE2B2E2856A33E0026929A /* CartView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		EDDB526E285145880000D2BE /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				EDDB526F2851459E0000D2BE /* CodableBundleExtension.swift */,
+				EDDB526C285144ED0000D2BE /* Constant.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDDB524D285135150000D2BE /* Food-App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDDB525C285135190000D2BE /* Build configuration list for PBXNativeTarget "Food-App" */;
+			buildPhases = (
+				EDDB524A285135150000D2BE /* Sources */,
+				EDDB524B285135150000D2BE /* Frameworks */,
+				EDDB524C285135150000D2BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Food-App";
+			packageProductDependencies = (
+				EDDB527A285290470000D2BE /* SDWebImage */,
+				EDCE2B2C28567FC10026929A /* Alamofire */,
+				EDCE2B3928573BD90026929A /* SDWebImageSwiftUI */,
+				EDCE2B40285783580026929A /* SwiftyJSON */,
+			);
+			productName = "Food-App";
+			productReference = EDDB524E285135150000D2BE /* Food-App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDDB5246285135150000D2BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					EDDB524D285135150000D2BE = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = EDDB5249285135150000D2BE /* Build configuration list for PBXProject "Food-App" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDDB5245285135150000D2BE;
+			packageReferences = (
+				EDDB5279285290470000D2BE /* XCRemoteSwiftPackageReference "SDWebImage" */,
+				EDCE2B2B28567FC10026929A /* XCRemoteSwiftPackageReference "Alamofire" */,
+				EDCE2B3828573BD90026929A /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				EDCE2B3F285783580026929A /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+			);
+			productRefGroup = EDDB524F285135150000D2BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDDB524D285135150000D2BE /* Food-App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDDB524C285135150000D2BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDDB52642851404D0000D2BE /* footerImage.json in Resources */,
+				EDDB5259285135190000D2BE /* Preview Assets.xcassets in Resources */,
+				EDDB5256285135180000D2BE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDDB524A285135150000D2BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDDB5268285143C00000D2BE /* FooterImagesModel.swift in Sources */,
+				EDCE2B4D28592A770026929A /* Observer.swift in Sources */,
+				EDDB5254285135150000D2BE /* ContentView.swift in Sources */,
+				EDDB52702851459E0000D2BE /* CodableBundleExtension.swift in Sources */,
+				EDDB527828514C300000D2BE /* OptionsView.swift in Sources */,
+				EDCE2B49285784A80026929A /* DataType.swift in Sources */,
+				EDDB528328534BF40000D2BE /* FoodItem.swift in Sources */,
+				EDDB527F28532F2A0000D2BE /* HomeView.swift in Sources */,
+				EDDB526D285144ED0000D2BE /* Constant.swift in Sources */,
+				EDDB5252285135150000D2BE /* Food_AppApp.swift in Sources */,
+				EDCE2B2F2856A33E0026929A /* CartView.swift in Sources */,
+				EDDB5262285137E60000D2BE /* FeaturedItemView.swift in Sources */,
+				EDDB5272285145C10000D2BE /* FeaturedTabView.swift in Sources */,
+				EDDB5285285544080000D2BE /* OptionsModel.swift in Sources */,
+				EDDB52812853479C0000D2BE /* MenuDisplay.swift in Sources */,
+				EDCE2B2A285546540026929A /* TabButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EDDB525A285135190000D2BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EDDB525B285135190000D2BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDDB525D285135190000D2BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Food-App/Preview Content\"";
+				DEVELOPMENT_TEAM = 5J9C5S965J;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.favremichael.MyPics.Food-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDDB525E285135190000D2BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Food-App/Preview Content\"";
+				DEVELOPMENT_TEAM = 5J9C5S965J;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.favremichael.MyPics.Food-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDDB5249285135150000D2BE /* Build configuration list for PBXProject "Food-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDDB525A285135190000D2BE /* Debug */,
+				EDDB525B285135190000D2BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDDB525C285135190000D2BE /* Build configuration list for PBXNativeTarget "Food-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDDB525D285135190000D2BE /* Debug */,
+				EDDB525E285135190000D2BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EDCE2B2B28567FC10026929A /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		EDCE2B3828573BD90026929A /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		EDCE2B3F285783580026929A /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		EDDB5279285290470000D2BE /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EDCE2B2C28567FC10026929A /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EDCE2B2B28567FC10026929A /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		EDCE2B3928573BD90026929A /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EDCE2B3828573BD90026929A /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+		EDCE2B40285783580026929A /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EDCE2B3F285783580026929A /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+		EDDB527A285290470000D2BE /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EDDB5279285290470000D2BE /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = EDDB5246285135150000D2BE /* Project object */;
+}
